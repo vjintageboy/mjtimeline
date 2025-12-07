@@ -16,16 +16,6 @@ MJ Timeline is a decentralized social timeline application where anyone can crea
 - **Transparent and verifiable** - Every post is cryptographically signed and timestamped
 - **User-owned** - You control your timeline through your IOTA wallet
 
-## ✨ Key Features
-
-- 🔐 **Wallet Authentication** - Connect with IOTA Wallet for secure access
-- 📝 **Create Posts** - Share content up to 500 characters
-- 🕒 **Chronological Timeline** - View all posts sorted by timestamp
-- ⚡ **Real-time Updates** - See new posts as they're published
-- 🎨 **Modern UI** - Beautiful, responsive interface built with Radix UI
-- 🔗 **On-chain Storage** - All data stored in Move smart contracts
-- 🌐 **Decentralized** - No centralized server or database
-
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -157,6 +147,9 @@ public fun get_post_count(timeline: &Timeline): u64
 public fun get_post(timeline: &Timeline, id: u64): &Post
 ```
 
+### Smart Contract Address (Devnet)
+- **[Contract Address](https://explorer.iota.org/object/0xf3e3d5af37d5b81886e7c2fe41ec471e2b7f8e3555a05602675f3a8699cd0e23?network=devnet)**
+
 ### Data Structures
 
 - **Timeline** - Shared object containing all posts in a Table
@@ -225,25 +218,5 @@ Contributions are welcome! Here's how you can help:
 - Update documentation as needed
 - Keep commits atomic and well-described
 
-## 👥 Maintainers
-
-This project is maintained by the MJ Timeline team. For questions or support:
-
-- 📧 Email: support@mjtimeline.example (update with actual contact)
-- 💬 Discord: [Join our community](https://discord.gg/example) (update with actual link)
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/mjtimeline/issues)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Built with [IOTA](https://www.iota.org/) blockchain technology
-- Inspired by decentralized social media principles
-- UI components from [Radix UI](https://www.radix-ui.com/)
-- Based on IOTA dApp Kit starter template
-
----
 
 **Ready to build the future of decentralized journalism?** Get started now! 🚀
